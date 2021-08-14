@@ -1,11 +1,11 @@
 
 ## How to run the project locally
 
-* Clone the project
+- Clone the project
 
-* in root folder, Run `npm install`
+- in root folder, Run `npm install`
 
-* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 
 ## System requirements
