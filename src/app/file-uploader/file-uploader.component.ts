@@ -7,6 +7,7 @@ class UploadedFile {
   name: string;
   url: string;
   size: string;
+  timeStamp: number;
 }
 @Component({
   selector: 'app-file-uploader',
@@ -47,6 +48,7 @@ export class FileUploaderComponent implements OnInit {
               upFile.name = file.name;
               upFile.size = (file.size / 1000) + 'kb';
               upFile.url = url;
+              upFile.timeStamp = timeStamp
               this.fileUploadService.insert(upFile);
               this.reset();
               this.toastr.success('File uploaded successfully!');
