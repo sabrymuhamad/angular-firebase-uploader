@@ -1,0 +1,18 @@
+.upload-toolbar {
+    height: auto !important;
+    background: transparent;
+    display: flex;
+  
+    p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: inline-block;
+      margin: 0;
+      cursor: pointer;
+    }
+  
+    .buttons {
+      margin-left: auto;
+    }
+  }
